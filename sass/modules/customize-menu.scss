@@ -1,0 +1,43 @@
+.openSidebarMenu{display: none;}
+/*.mainNav{
+    .sidebarMenuInner{
+        li{
+            font-size: 14px;
+            a{
+                width: 100%;
+            }
+            .dropDWN-click{
+                position: relative;
+                &::after{
+                    content: "\f107";
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    border: none;
+                    position: absolute;
+                    top: 17px;
+                    right: 0px;
+                    color: $black;
+                }
+            }
+            .dropDWN-UL{
+                padding-left: 20px;
+                background: rgba(255,255,255,0.6);
+                overflow-y: scroll;
+                height: 150px;
+                width: 100%;
+                margin: 0 auto;
+                border-top: 1px solid $black;
+                border-bottom: 1px solid $black;
+                li{
+                    a{
+                        padding: 9px 8px;
+                        display: block;
+                        line-height: 14px;
+                        color: $black;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}*/

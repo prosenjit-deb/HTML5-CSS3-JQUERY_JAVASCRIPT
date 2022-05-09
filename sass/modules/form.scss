@@ -1,0 +1,278 @@
+.form-control::-webkit-input-placeholder {
+  color: $blue;
+}
+.form-control:-moz-placeholder {
+  color: $blue;
+}
+.form-control::-moz-placeholder {
+  color: $blue;
+}
+.form-control::placeholder {
+  color: $blue;
+}
+.form-control:-ms-input-placeholder {
+  color: $blue;
+}
+.modal-header .close{
+	margin-right: 0 !important;
+}
+.u-columns{
+	display: flex;
+	justify-content: space-around;
+	    flex-direction: column;
+
+	@include lg {
+		flex-direction: row;
+	}
+}
+.u-column1{
+	max-width: 100% !important;
+    background-color: #e0ebf5;
+    padding: 3rem 2rem 3rem !important;
+    flex: 0 0 100%;
+
+    @include lg {
+		max-width: 49% !important;
+		flex: 0 0 49%;
+	}
+}
+.u-column2{
+	max-width: 100% !important;
+    background-color: #e0ebf5;
+    padding: 3rem 2rem 3rem !important;
+    flex: 0 0 100%;
+
+	@include lg {
+		max-width: 49% !important;
+		flex: 0 0 49%;
+	}
+}
+.woocommerce-form{
+    
+}
+.password-input{
+    width: 100%;
+}
+.woocommerce{
+	.form-row{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.order-again{
+		margin-top: 25px;
+	}
+}
+.woocommerce-form label, .collect-thumb label{
+    width: 100%;
+    display: block;
+}
+.woocommerce-Input, .state_select, .country_select, .InputElement, .collect-thumb select, .form-control{
+    border: solid 1px #4e555b;
+    height: 45px;
+    display: block;
+    width: 100%;
+	padding: 10px;
+}
+.woocommerce-button{
+	font-size: $base-font-size;
+	font-weight: $normal;
+	line-height: 24px;
+	padding:15px 25px;
+	border: none;
+	border-radius: 0;
+	text-align: center;
+	text-decoration: none;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	transition: all 0.3s; /* For modern browsers */
+	position: relative;
+	background: $blue;
+	color: $white;
+	min-width: 170px;
+	text-transform: capitalize;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.woocommerce-button:hover {
+		text-decoration: none;
+		background: #11324f;
+		color: $white;
+		transition: all 0.3s; /* For modern browsers */
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	}
+.woocommerce-orders-table__cell-order-actions{
+	a.button{
+		min-width: 90px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 0;
+		font-size: 14px;
+	}
+}
+.forminator-custom-form{
+	.forminator-label{
+		font-size: 18px !important;
+		line-height: 28px !important;
+		width: 100% !important;
+		display: block !important;
+		margin-bottom: 10px !important;
+	}
+	.forminator-input {
+		border: solid 1px #4e555b !important;
+		height: 45px !important;
+		display: block !important;
+		width: 100% !important;
+		padding: 10px !important;
+		background: $white !important;
+	}
+	textarea{
+		border: solid 1px #4e555b !important;
+		display: block !important;
+		width: 100% !important;
+		padding: 10px !important;
+		background: $white !important;
+	}
+	.forminator-button-submit {
+	font-size: $base-font-size !important;
+	font-weight: $normal !important;
+	line-height: 24px !important;
+	padding:15px 25px !important;
+	border: none !important;
+	border-radius: 0 !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	-moz-transition: all 0.3s !important;
+	-webkit-transition: all 0.3s !important; /* For Safari 3.0 to 6.0 */
+	transition: all 0.3s !important; /* For modern browsers */
+	position: relative !important;
+	background: $blue !important;
+	color: $white !important;
+	min-width: 170px !important;
+	text-transform: capitalize !important;
+	cursor: pointer !important;
+	text-transform: uppercase !important;
+
+	&:hover {
+		text-decoration: none !important;
+		background: #11324f !important;
+		color: $white !important;
+		transition: all 0.3s !important; /* For modern browsers */
+		-moz-transition: all 0.3s !important;
+		-webkit-transition: all 0.3s !important; /* For Safari 3.0 to 6.0 */
+	}
+	&:focus {
+		text-decoration: none !important;
+		outline: none !important;
+		border:none !important;
+	}
+}
+}
+
+.status-publish{
+	width: 100%;
+}
+.rcp_user_fieldset{
+	display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+	p#rcp_user_last_wrap, p#rcp_password_again_wrap, p#rcp_password_wrap, p#rcp_user_login_wrap, p#rcp_user_email_wrap, p#rcp_user_first_wrap, #rcp_card_name_wrap {
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+		width: 100%;
+
+		@include lg {
+			width: 49%;
+		}
+
+		label{
+			font-size: 18px;
+			line-height: 28px;
+			margin-bottom: 10px;
+			strong{
+				color: $red;
+			}
+		}
+		input, .state_select, .country_select, .StripeElement{
+			border: solid 1px #4e555b;
+			height: 45px;
+			display: block;
+			width: 100%;
+			padding: 10px;
+		}
+		.state_select, .country_select{
+			margin-left: 2px;
+		}
+	}
+}
+
+.rcp_registration_total{
+	background-color: $sky-light;
+	padding: 45px;
+	width: 100%;
+	border-top: solid 2px $blue;
+	border-bottom: solid 2px $blue;
+	margin-bottom: 2rem;
+	table{
+		width: 100%;
+		tfoot{
+			tr{
+				th, td{
+					padding: 10px;
+				}
+				th{
+					font-weight: $bold;
+				}
+			}
+		}
+	}
+}
+.rcp_gateway_fields{
+	background-color: $sky-light;
+	padding: 45px;
+	width: 100%;
+	border-top: solid 2px $blue;
+	border-bottom: solid 2px $blue;
+	margin-bottom: 2rem;
+}
+.woocommerce-address-fields__field-wrapper, .woocommerce-billing-fields__field-wrapper{
+	label{
+		width: 100%;
+    	display: block;
+	}
+	.input-text{
+		border: solid 1px #4e555b;
+		height: 40px;
+		display: block;
+		width: 100%;
+		padding: 10px;
+		
+	}
+	.select2-container{
+		border: solid 1px #4e555b;
+		height: 40px;
+		display: block;
+		width: 100%;
+		padding: 0px;
+		z-index: 999 !important; 
+		.select2-selection{
+			height: 40px;
+			.select2-selection__rendered{
+				padding: 5px 10px;
+				.select2-selection__arrow{
+					top: 6px;
+				}
+			}
+		}
+	}
+}
+
+#rcp-card-element, .rcp_card_name {
+	border: solid 1px #4e555b;
+	height: 45px;
+	display: block;
+	width: 60%;
+	padding: 10px;
+}

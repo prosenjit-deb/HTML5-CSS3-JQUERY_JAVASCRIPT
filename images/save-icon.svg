@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 34" width="28" height="34">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #535353;stroke-width: 2 } 
+		.shp1 { fill: none;stroke: #535353;stroke-linecap:round;stroke-width: 2 } 
+	</style>
+	<g id="PPP-Web-Design_Article-UnGated_JCP">
+		<g id="Group 11">
+			<path id="Stroke 1" class="shp0" d="M2.48 13.06L12.93 2.62C13.57 1.98 14.61 1.98 15.25 2.62L25.52 12.88C26.54 13.91 25.83 15.66 24.37 15.67L3.66 15.86C2.19 15.87 1.45 14.1 2.48 13.06Z" />
+			<path id="Stroke 3" class="shp1" d="M14 17L14 33" />
+		</g>
+	</g>
+</svg>

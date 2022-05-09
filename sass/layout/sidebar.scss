@@ -1,0 +1,446 @@
+.g-ad-sec{
+	margin-bottom: 3rem;
+	.widget-area{
+		margin: 0 !important;
+	}
+}
+.gad-horiz{
+	// background-image: url(../../images/COVIDWebLB_LandingPageAd_Elert.png);
+	// background-repeat: no-repeat;
+	// width: 770px;
+	// height: 130px;
+	// min-height: 130px;
+	// background-size: cover;
+	// overflow: hidden;
+	// border: solid 20px #f6f6f6;
+
+	width: 100%;
+	min-height: 130px;
+	padding:20px;
+	text-align: center;
+
+	p{
+		margin: 0;
+	}
+}
+.gad-horiz-big{
+	// background-image: url(../../images/OT19046WebLB1_BPD.png);
+	// background-repeat: no-repeat;
+	// width: 770px;
+	// height: 130px;
+	// min-height: 130px;
+	// background-size: cover;
+	// overflow: hidden;
+	// border: solid 20px #f6f6f6;
+
+	width: 100%;
+	height: auto;
+	padding:20px;
+	text-align: center;
+
+	p{
+		margin: 0;
+	}
+}
+.g-ad-apart{
+	img{
+		width: 100%;
+	}
+
+	&.boder-x {
+		border:0px !important;
+	}
+}
+.gad-square{
+	// background-image: url(../../images/JP20073AC1WebSQ3_ASCP-2020_FDA.png);
+	// background-repeat: no-repeat;
+	// width: 340px;
+	// height: 290px;
+	// min-height: 290px;
+	// background-size: cover;
+	// overflow: hidden;
+	// margin-left: auto;
+ 	// border: solid 20px #f6f6f6;
+
+ 	width: 100%;
+	height: auto;
+	padding:20px;
+	margin-left: auto;
+	text-align: right;
+
+    @include rwdm(991) {
+		// transform: scale(0.8);
+		// border: solid 10px #f6f6f6;
+		// margin-left: -40px;
+  		// margin-top: -40px;
+  		// width: 320px;
+		// height: 270px;
+		// min-height: 270px;
+
+		transform: scale(0.8);
+		width: 100%;
+		height: auto;
+		padding:10px;
+		margin-left: -40px;
+		margin-top: -40px;			
+	}
+
+	@include rwdm(767) {
+		// transform: scale(1);
+		// margin-right: auto;
+		// border: solid 20px #f6f6f6;	
+		// margin-left: auto;
+  		// margin-top: 0;
+  		// width: 340px;
+		// height: 290px;
+		// min-height: 290px;
+
+		transform: scale(1);
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 0;
+		width: 100%;
+		height: auto;
+		padding:20px;
+		text-align: center;
+	}
+
+	@include rwdm(480) {
+		// transform: scale(0.8);
+		// border: solid 10px #f6f6f6;
+		// margin-left: auto;
+  		// margin-top: 0;
+  		// width: 320px;
+		// height: 270px;
+		// min-height: 270px;
+
+		transform: scale(0.8);
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 0;
+		width: 100%;
+		height: auto;
+		padding:20px;		
+	}
+	p{
+		margin: 0;
+	}
+}
+.gad-vertical{
+	// background-image: url(../../images/JP20073AC1WebHP3_ASCP-2020_FDA.png);
+	// background-repeat: no-repeat;
+	// width: 340px;
+	// height: 640px;
+	// min-height: 290px;
+	// background-size: 100% 100%;
+	// overflow: hidden;
+	// margin-left: auto;
+ 	// border: solid 20px #f6f6f6;
+
+ 	width: 100%;
+	height: auto;
+	padding:20px;
+	margin-left: auto;
+	text-align: right;
+
+    @include rwdm(991) {
+		// transform: scale(0.8);
+		// border: solid 10px #f6f6f6;
+		// margin-left: -40px;
+  		// margin-top: -40px;
+  		// width: 320px;
+		// height: 620px;
+		// min-height: 270px;
+
+		width: 100%;
+		height: auto;
+		padding:20px;
+		transform: scale(0.8);
+		margin-left: -40px;
+		margin-top: -40px;
+
+	}
+
+    @include rwdm(767) {
+		// transform: scale(1);
+		// margin-right: auto;
+		// border: solid 20px #f6f6f6;
+		// margin-left: auto;
+  		// margin-top: 0;
+  		// width: 340px;
+		// height: 640px;
+		// min-height: 290px;
+
+		transform: scale(1);
+		width: 100%;
+		height: auto;
+		padding:20px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 0;
+		text-align: center;	
+	}
+
+	@include rwdm(480) {
+		// transform: scale(0.8);
+		// border: solid 10px #f6f6f6;
+		// margin-left: auto;
+  		// margin-top: 0;
+  		// width: 320px;
+		// height: 620px;
+		// min-height: 270px;
+
+		transform: scale(0.8);
+		width: 100%;
+		height: auto;
+		padding:10px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 0;		
+	}
+	p{
+		margin: 0;
+	}
+}
+.r-sidebar{
+	.textwidget{
+		&:first-child{
+			.gad-square{
+				// background-image: url(../../images/OT19046WebSQ3_BPD.png);
+				// background-repeat: no-repeat;
+				// width: 340px;
+				// height: 290px;
+				// min-height: 290px;
+				// background-size: cover;
+				// overflow: hidden;
+				// border: solid 20px #f6f6f6;
+				// margin-left: auto;
+
+				width: 100%;
+				height: auto;
+				padding:20px;
+				margin-left: auto;
+				text-align: right;
+
+				@include rwdm(991) {
+					// transform: scale(0.8);
+					// border: solid 10px #f6f6f6;
+					// margin-left: -40px;
+    				// margin-top: -40px;
+    				// width: 320px;
+					// height: 270px;
+					// min-height: 270px;
+
+					width: 100%;
+					height: auto;
+					padding:10px;
+					transform: scale(0.8);
+					margin-left: -40px;
+					margin-top: -40px;	
+				}
+
+			    @include rwdm(767) {
+					// transform: scale(1);
+					// margin-right: auto;
+					// border: solid 20px #f6f6f6;
+					// margin-left: auto;
+    				// margin-top: 0;
+    				// width: 340px;
+					// height: 290px;
+					// min-height: 290px;
+
+					transform: scale(1);
+					width: 100%;
+					height: auto;
+					padding:20px;
+					margin-right: auto;
+					margin-left: auto;
+					margin-top: 0;
+					text-align: center;	
+				}
+
+				@include rwdm(480) {
+					// transform: scale(0.8);
+					// border: solid 10px #f6f6f6;
+					// margin-left: auto;
+    				// margin-top: 0;
+    				// width: 320px;
+					// height: 270px;
+					// min-height: 270px;
+
+					transform: scale(0.8);
+					width: 100%;
+					height: auto;
+					padding:10px;
+					margin-right: auto;
+					margin-left: auto;
+					margin-top: 0;	
+				}
+
+				p{
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+.widget-area{
+	margin-bottom: 1.5rem;
+}
+.pdf-sec{
+	background-color: $sky-light;
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.m-popular{
+	background-color: $sky-light;
+	padding: 20px;
+	.c-blog-list-single{
+		padding-top: 0;
+	}
+	h8{
+		margin-bottom: 1.8rem;
+		display: block;
+	}
+	.c-blog-list-post{
+		h2{
+			//font-size: 24px;
+			font-size: 21px;
+		}
+		h3{
+			//font-size: 20px;
+			font-size: 16px;
+		}
+		.post-cat-title{
+			h7{
+				background-color: $sky-light;
+			}
+			h5.credit-score{
+				background-color: $sky-light;
+			}
+			.box-icon:after{
+				background-color: $sky-light;
+			}
+		}
+	}
+}
+
+.take-onlin{
+	background-color: $sky-light;
+	padding: 20px;
+	.title{
+		font-weight: $bold;
+		position: relative;
+		padding-bottom: 1rem;
+		&:after{
+			content: "";
+			width: 58px;
+			height: 3px;
+			background-color: $red;
+			position: absolute;
+			bottom: 0;
+			left: 0%;
+		}
+	}
+	.cont{
+		padding-top: 20px;
+		h9{
+			color: $red;
+			font-weight: $bold;
+			display: block;
+			padding-bottom: 1.5rem;
+		}
+	}
+	.btn-group{
+		margin: 1rem 0 0;
+	}
+	&.cl-mask{
+		position: relative;
+		&:after{
+			content: "";
+			width: 149px;
+			height: 157px;
+			background-image: url(../../images/face-mask.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		.title{
+			padding-right: 7rem;
+		}
+	}
+	.forminator-poll-header{
+		font-weight: $bold;
+		position: relative;
+		padding-bottom: 1rem;
+		&:after{
+			content: "";
+			width: 58px;
+			height: 3px;
+			background-color: $red;
+			position: absolute;
+			bottom: 0;
+			left: 0%;
+		}
+	}
+	.forminator-radio{
+		margin-bottom: 10px !important;
+	}
+	.forminator-poll-body{
+		margin-top: 50px !important;
+	}
+	.forminator-ui.forminator-poll[data-design=default] .forminator-button {
+	font-size: $base-font-size;
+	font-weight: $normal;
+	line-height: 24px;
+	padding:15px 25px;
+	border: none;
+	border-radius: 0;
+	text-align: center;
+	text-decoration: none;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	transition: all 0.3s; /* For modern browsers */
+	position: relative;
+	background: $blue;
+	color: $white;
+	min-width: 170px;
+	text-transform: capitalize;
+	cursor: pointer;
+	text-transform: uppercase;
+
+	&:hover {
+		text-decoration: none;
+		background: #11324f;
+		color: $white;
+		transition: all 0.3s; /* For modern browsers */
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	}
+	&:focus {
+		text-decoration: none;
+		outline: none;
+		border:none;
+	}
+}
+
+}
+.poll{
+	.form-check{
+		padding-top: .3rem;
+		padding-bottom: .3rem;
+		.form-check-input{
+			width: 15px;
+			height: 15px;
+		}
+		.form-check-label{
+			font-size: $small-font-size;
+			padding-left: .3rem;
+		}
+	}
+}

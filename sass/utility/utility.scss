@@ -1,0 +1,98 @@
+#myForm{
+	background-color: $sky-light;
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 2rem;
+	@include lg {
+		padding: 40px;
+	}
+
+	.title_section {
+		display: flex;
+		flex-direction: column;
+
+		@include lg {
+			flex-direction:row;
+			align-items: baseline;
+		}
+	}
+
+	.date_section {
+		display: flex;
+		flex-direction: column;
+
+		@include lg {
+			flex-direction:row;
+			align-items: baseline;
+		}
+
+		select {
+			margin-bottom: 10px;
+			@include lg {
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.title_section{
+	label{
+		font-weight: bold;
+	}
+	input{
+		border: solid 1px $blue;
+		padding: 5px 25px 5px 5px;
+		margin: 0 5px;
+		min-width: 42.5%;
+	}
+}
+.date_section{
+	margin: 30px 0 40px;
+	label{
+		font-weight: bold;
+	}
+	select{
+		border: solid 1px $blue;
+		padding: 10px 25px 10px 5px;
+		margin: 0 5px;
+	}
+}
+
+.facebook, .twitter, .linkedin{
+	border: solid 1px $blue;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 6px;
+	background-color: $white;
+	&:hover{
+		background-color: $blue;
+		color: $white !important;
+	}
+	i{
+		font-size: 18px !important;
+		line-height: 2 !important;
+	}
+}
+
+/* Releated articles */
+.related-article-custom, .trendmd-widget-list{
+	li{
+		a{
+			font-weight: $bold;
+			font-size: 16px;
+			margin-bottom: 12px;
+			color: $blue;
+		}
+		p, .trendmd-widget-list-item__meta{
+			font-size: 16px;
+		}
+	}
+}
+.refCheck{
+	width: 15px;
+	height: 15px;
+	margin: 0 .5rem 0;
+	top: 1px;
+	position: relative;
+}

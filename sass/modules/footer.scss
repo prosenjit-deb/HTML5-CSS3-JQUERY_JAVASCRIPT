@@ -1,0 +1,78 @@
+.sign-up-scribe{
+	background-color: $sky-light;
+	border-top: solid 7px $red;
+	padding: 30px 0 50px;
+	@include lg{
+		text-align: center;
+		padding: 0;
+	}
+	&-img{
+		padding-top: 35px;
+	}
+	&-cont{
+		max-width: 430px;
+		padding: 20px 0;
+		@include lg{
+			padding: 0;
+		}
+		h2, h4{
+			color: $dark-gray;
+		}
+		a{
+			color: $blue;
+			font-weight: $semibold;
+			&:hover{
+				color: $red;
+			}
+		}
+	}
+}
+
+.C-footer{
+	background-color: $blue;
+	padding: 75px 20px;
+		@include lg{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	font-size: $footer-font-size;
+	.col-12{
+		&:last-child{
+			padding-right: 0;
+		}
+	}
+	&-widget-text{
+		margin-bottom: 40px;
+		@include lg{
+			margin-bottom: 0;
+		}
+		p{
+			color: $white;
+			font-size: $footer-font-size;
+		}
+		ul{
+			li{
+				display: flex;
+				align-items: center;
+				color: $white;
+				padding: 4px 0;
+				a{
+					color: $white;
+					font-size: $footer-font-size;
+					padding: 0;
+					&:after {
+					  display:block;
+					  content: '';
+					  border-bottom: solid 2px $off-white;  
+					  transform: scaleX(0);  
+					  transition: transform 250ms ease-in-out;
+					}
+					&:hover{
+						color: $off-white;
+						&:after { transform: scaleX(1); }
+					}
+				}
+			}
+		}
+	}
+}

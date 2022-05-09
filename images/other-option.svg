@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="34" height="34">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-427 -151L1013 -151L1013 16305L-427 16305Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #535353;stroke-width: 2 } 
+		.shp1 { fill: none;stroke: #535353;stroke-linecap:round;stroke-width: 2 } 
+	</style>
+	<g id="PPP-Web-Design_Article-UnGated_JCP" clip-path="url(#cp1)">
+		<g id="Group 15">
+			<path id="Stroke 1" class="shp0" d="M1 17C1 25.84 8.16 33 17 33C25.84 33 33 25.84 33 17C33 8.16 25.84 1 17 1C8.16 1 1 8.16 1 17Z" />
+			<path id="Stroke 3" class="shp1" d="M7 11L10 11" />
+			<path id="Stroke 5" class="shp1" d="M14 11.09L27 11.09" />
+			<path id="Stroke 7" class="shp1" d="M7 17L10 17" />
+			<path id="Stroke 9" class="shp1" d="M14 17.09L27 17.09" />
+			<path id="Stroke 11" class="shp1" d="M7 23L10 23" />
+			<path id="Stroke 13" class="shp1" d="M14 23.09L27 23.09" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,72 @@
+input#openSidebarMenu[type="checkbox"]:checked ~ #navbar {
+  transform: translateX(0);
+}
+
+.openSidebarMenuinput[type="checkbox"] {
+  transition: all 0.5s;
+  box-sizing: border-box;
+}
+.sidebarIconToggle {
+  transition: all 0.5s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 27px;
+  width: 30px;
+  margin-bottom: 0;
+	@include lg{
+		display: none;
+	}
+}
+.spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: $blue;
+}
+.horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 5px;
+}
+.diagonal.part-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left;
+}
+.diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 5px;
+}
+input#openSidebarMenu[type="checkbox"]:checked ~ .navbar-header > .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+}
+input#openSidebarMenu[type="checkbox"]:checked ~ .navbar-header > .sidebarIconToggle > .diagonal.part-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+  background: $blue;
+}
+input#openSidebarMenu[type="checkbox"]:checked ~ .navbar-header > .sidebarIconToggle > .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -10px;
+  background: $blue;
+}

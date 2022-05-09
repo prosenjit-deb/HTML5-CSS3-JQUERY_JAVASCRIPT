@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 47" width="39" height="47">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-356 -145L1084 -145L1084 16311L-356 16311Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #535353;stroke-linecap:round;stroke-width: 2 } 
+	</style>
+	<g id="PPP-Web-Design_Article-UnGated_JCP" clip-path="url(#cp1)">
+		<g id="Group 25">
+			<path id="Stroke 1" class="shp0" d="M25.57 46L4.43 46C2.54 46 1 44.43 1 42.49L1 13.51C1 11.57 2.54 10 4.43 10L25.57 10C27.46 10 29 11.57 29 13.51L29 42.49C29 44.43 27.46 46 25.57 46Z" />
+			<path id="Stroke 3" class="shp0" d="M5 9.17C5 7.42 6.39 6 8.11 6L29.89 6C31.61 6 33 7.42 33 9.17L33 38.83C33 40.58 31.61 42 29.89 42" />
+			<path id="Stroke 5" class="shp0" d="M9 5.17C9 3.42 10.39 2 12.11 2L33.9 2C35.61 2 37 3.42 37 5.17L37 34.83C37 36.58 35.61 38 33.9 38" />
+			<path id="Stroke 7" class="shp0" d="M5 18C5 20.21 6.79 22 9 22C11.21 22 13 20.21 13 18C13 15.79 11.21 14 9 14C6.79 14 5 15.79 5 18Z" />
+			<path id="Stroke 9" class="shp0" d="M16 14L24 14" />
+			<path id="Stroke 11" class="shp0" d="M16 18L24 18" />
+			<path id="Stroke 13" class="shp0" d="M16 22L24 22" />
+			<path id="Stroke 15" class="shp0" d="M5 26L24 26" />
+			<path id="Stroke 17" class="shp0" d="M5 30L24 30" />
+			<path id="Stroke 19" class="shp0" d="M5 34L24 34" />
+			<path id="Stroke 21" class="shp0" d="M5 38L24 38" />
+			<path id="Stroke 23" class="shp0" d="M5 42L24 42" />
+		</g>
+	</g>
+</svg>
